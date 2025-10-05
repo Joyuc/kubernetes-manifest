@@ -11,11 +11,11 @@ spec:
   ingressClassName: external-nginx
   tls:
   - hosts:
-    - bankapi.skybound02.online  # bankend url
-    - bank.skybound02.online     # frontend url
-    secretName: bank-skybound02-online
+    - bankapi.jay4tech.online  # bankend url
+    - bank.jay4tech.online     # frontend url
+    secretName: bank-jaytech-online
   rules:
-  - host: bank.skybound02.online
+  - host: bank.jay4tech.online
     http:
       paths:
       - path: /
@@ -25,7 +25,7 @@ spec:
             name: bank-frontend-service
             port:
               number: 3000
-  - host: bankapi.skybound02.online
+  - host: bankapi.jay4tech.online
     http:
       paths:
       - path: /

@@ -6,4 +6,4 @@ data:
   DB_HOST: "production-mysql-db.cub08i2gqhau.us-east-1.rds.amazonaws.com"
   DB_PORT: "3306"
   DB_NAME: "production_db"
-  REACT_APP_API_URL: https://bankapi.jay4tech.online
+  REACT_APP_API_URL: https://bankapi.jay4tech.online/api
